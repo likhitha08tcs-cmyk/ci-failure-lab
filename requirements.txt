@@ -1,1 +1,3 @@
-
+pytest123==1.0.0
+reqests==2.31.0
+flake8
