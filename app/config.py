@@ -1,3 +1,3 @@
 import os
 
-SECRET_KEY = os.environ["SECRET_KEY"]  # ❌ KeyError risk
+SECRET_KEY = os.environ.get("SECRET_KEY", "safe_default")

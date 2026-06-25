@@ -1,2 +1,2 @@
 def add(a, b):
-    return a - b   # ❌ wrong logic (intentional bug)
+    return a + b
